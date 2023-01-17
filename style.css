@@ -1,0 +1,294 @@
+.headingDiv{
+    border-top:solid 30px;
+    border-bottom:solid 30px;
+    background-image:url("./leaf-blow.gif");
+    border-color:#A4B494;
+    padding:10%;
+}
+
+.main-Image{
+    border-radius: 100%;
+    border:solid 10px;
+    border-color: #D8E9A8;
+    width:80%;
+    
+}
+
+.h1-1{
+    font-family: 'Frijole', cursive;
+    color:#D8E9A8;
+    text-align:center;
+    font-size:300%;
+}
+
+h2{
+    font-family: 'Frijole', cursive;
+    color:#D8E9A8;
+    text-align:center;
+    font-size:200%;
+}
+
+.h1-2{
+    font-family: 'Eater', cursive;
+    color:#FF004D;
+    text-shadow: 1px 0 0 #F1F1F1, 0 -1px 0 #F1F1F1, 0 1px 0 #F1F1F1, -1px 0 0 #F1F1F1;
+    text-align:center;
+    font-size:300%;
+
+}
+
+.treeText{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    width:30%;
+    padding:20px;
+    margin-left:30%;
+}
+
+
+.star-rate-div{
+    user-select:none;
+    background-color:white;
+    padding:1.4rem 2.5 rem;
+    margin:2rem;
+    border-radius:4rem;
+    text-align:center;
+}
+
+.tree-star{
+    font-size:3rem;
+    color:#534340;
+    background-color:unset;
+    border:none;
+}
+
+.button-stars:hover {
+    cursor:pointer;
+}
+
+
+.display-Image{
+    display: flex;
+    justify-content: center;
+    background-color:#D8E9A8;
+    width:80%;
+    padding:5%;
+    border-radius:20%;
+    border:solid 10px;
+    border-color:#90B77D;
+}
+
+
+
+#imgPreview {
+    width:400px;
+    height:400px;
+    border:solid 10px;
+    border-color:#ECB390;
+    border-radius:100%;
+    background-position:center;
+    background-size:cover;
+    text-align:center;
+}
+
+.myForm{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#myForm{
+    display:flex;
+    flex-direction: column;
+    align-content:space-between;
+    justify-content:center;
+    
+    
+}
+
+.formContainerDiv{
+    background-color: #FFDCAE;
+    padding:10%;
+    border:solid 10px;
+    border-color:#A4B494
+}
+
+.body{
+    background-image:url("./trees.jpg");
+}
+
+.treeListDiv{
+    display:flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: center;
+    text-align: center;
+    background-image:url("./trees\ BG.jpg");
+    background-size:contain;
+    padding:10%;
+    padding-left:20%;
+    border:solid 20px;
+    border-color: #A4B494;
+    
+}
+
+.treeDiv{
+    
+    width:80%;
+    background-color:#CC9C75;
+    border-radius: 20%;
+    margin-top: 50px;
+    border: solid 10px;
+    border-color: #A25B5B;
+    
+}
+
+#Tree-list{
+    justify-content: center;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.list-tree-image{
+    width:400px;
+    height:400px;
+    border:solid 10px;
+    border-color:#DF7861;
+    border-radius:100%;
+    background-size:cover;
+    text-align:center;
+    margin:10px;
+}
+
+.stars {
+    background-color:none;
+    position:relative;
+    border-radius: 20%;
+    margin: 0;
+}
+
+.img-container {
+    margin: 6px auto;
+    position:relative;
+    background-color:#ECB390;
+    border-radius: 100%;
+    width:80%;
+    padding:5%;
+
+}
+
+.innerTreeDiv {
+    width: 50%;
+    background-color: aqua;
+
+}
+
+.tree-name{
+    top:30px;
+    position:relative;
+    margin-bottom:10px;
+    background-color:none;
+    padding:20px;
+    font-family: 'Frijole', cursive;
+    font-size: 150%;
+    color:#534340;
+
+    
+}
+
+.treeName{
+    font-family: 'Frijole', cursive;
+    
+
+}
+
+.screamReason{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size:130%;
+}
+
+.button{
+    margin-top:10px;
+    margin-bottom:10px;
+    background-color: none;
+    padding:20px;
+    color:#A25B5B;
+
+}
+
+.rateThisTree{
+    font-family: 'Frijole', cursive;
+}
+
+.yUScreaming{
+    font-family: 'Frijole', cursive;
+}
+
+.star-rate-div{
+    background-color:#FFD59E;
+    border:solid 10px;
+    border-color: #A25B5B;
+    padding:10px;
+}
+
+label{
+    font-family: 'Frijole', cursive;
+    font-size: 400%;
+    color:#A25B5B;
+    
+
+}
+
+.addButton{
+    display: flex;
+    justify-content: center;
+    margin-left: 45%;
+}
+
+.chooseTree{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left:40%;
+}
+
+.clearAllButton{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-right:100px;
+
+}
+
+.clearTree{
+    width:200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+.clearTree:hover{
+    cursor:pointer;
+    width:199px;
+}
+
+
+
+.deleteMyTree{
+    width:200px;
+}
+
+.deleteMyTree:hover{
+cursor:pointer;
+width:199px;
+}
+
+.chooseTree{
+
+}

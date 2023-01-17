@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Frijole&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Eater&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" href = "style.css"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src = "./main.js"></script>
+    <title>Screaming Trees</title>
+</head>
+<body id="body">
+    <div class = "headingDiv">
+                            <h1 class = "h1-1">Trees</h1>
+                            <center>
+                            <img class = "main-Image" src = "tree1.jpg">
+                            </center>
+                            <h2>That</h2>
+                            <h1 class = "h1-2">look like they're screaming at you</h1>
+                            
+                                <!-- do I customise this button? make it lead to a seperate page or see if I can create a floating div that appears above
+                                all else? perhaps I can make it so you dont see the form at all until clicking the button as i find it detracts stylistically
+                                from the page. -->
+
+      
+    </div>
+    <!-- //I will make sure this div only appears once button is hit. -->
+    <div class = "formContainerDiv">
+        <div id = "formdiv">
+            <center>
+                            <form id = "myForm">
+                                <label>Place Image of Tree Here!!</label><br>
+                                <input class = "chooseTree" type = 'file' accept = "image/png/jpg" name = "treeImage" id ="treeImage"/><br>
+
+                                <div class = "display-Image" id = "display-Image">
+                                    <img class = "imgPreview" id = "imgPreview">
+                                </div>
+                                </div><br>
+                                    <div id = "rate" class = "star-rate-div">
+                                        <label class = "treeName">Name of Tree</label><br>
+                                        <input type = "text" name = "treeName" id = "treeName"/><br>
+                                    </div>
+                                    <div id = "rate" class = "star-rate-div">
+                                        <label class = "yUScreaming">Reason for Screaming</label><br>
+                                        <input type = "text" name = "yUScream" id = "yUScream"/><br>
+                                    </div>
+                                <div id = "rate" class = "star-rate-div">
+                                    <label class = "rateThisTree">Rate Your Screaming Tree!</label><br>
+                                    <button class = "tree-star button-stars">&#9734;</button>
+                                    <button class = "tree-star button-stars">&#9734;</button>
+                                    <button class = "tree-star button-stars">&#9734;</button>
+                                    <button class = "tree-star button-stars">&#9734;</button>
+                                    <button class = "tree-star button-stars">&#9734;</button><br>
+                                    <p id = "current_rating">0 out of 5</p>
+                                </div>
+                                <input type="hidden" name="rating" id="rating" value="0">
+                                <input class = "addButton" id="button" type="button" name="Add Tree" value="Add Tree" onclick="addTree()"/>
+                            </form>
+                        </center>
+
+                                
+                            
+        </div>
+    </div>
+                                <div class = "treeListDiv">
+                                   
+                                    <ul id="Tree-list"></ul>
+                                    <a class = "clearAllButton" onclick="clearArray();">
+                                        <img class = "clearTree" src = "./tree genocide.png">
+                                    </a>
+                                </div>
+</body>
+</html>

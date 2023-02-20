@@ -70,9 +70,9 @@ function addTree() {
     );
   }
 
-  if 
-    errors.push("Your name has been refused as it belongs to another!")
-  }
+//   if 
+//     errors.push("Your name has been refused as it belongs to another!")
+//   }
 
   if (/\d/g.test(x)){
     errors.push("This is a Tree, not a Robot, take your numerical nonsense elsewhere, you Warlock");
